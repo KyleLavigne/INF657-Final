@@ -6,8 +6,6 @@ node_modules/
 # vsCode
 .vscode/
 
-# android
-
 # Expo
 .expo/
 dist/
