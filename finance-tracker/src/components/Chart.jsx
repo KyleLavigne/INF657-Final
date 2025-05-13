@@ -45,7 +45,7 @@ export default function Chart() {
         const formatted = Object.keys(summary || {}).map((key, i) => {
           const icon = view === 'income' ? incomeCategoryIcons?.[key] : expenseCategoryIcons?.[key];
           return {
-            name: `${icon || '❓'} ${key}`,
+            name: `${key}`,
             amount: summary[key],
             color: chartColors[i % chartColors.length] || '#ccc',
             legendFontColor: '#333',
