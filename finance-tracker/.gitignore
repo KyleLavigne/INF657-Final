@@ -3,13 +3,16 @@
 # dependencies
 node_modules/
 
+# vsCode
+.vscode/
+
+# android
+
 # Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
-
-.ex
 
 # Native
 .kotlin/
